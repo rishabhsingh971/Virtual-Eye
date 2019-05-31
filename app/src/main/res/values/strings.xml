@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!DOCTYPE resources [
+    <!ENTITY ocr "OCR">
+    <!ENTITY curr "Currency">
+    <!ENTITY trans "Translate">
+    ]>
+<resources>
+    <string name="app_name">Virtual Eye - A Blind Aid</string>
+    <string name="str_ocr">&ocr;</string>
+    <string name="str_currency">&curr;</string>
+    <string name="str_settings">Settings</string>
+    <string name="str_translate">&trans;</string>
+    <string name="str_help">Help</string>
+    <string name="ok">OK</string>
+    <string name="permission_camera_rationale">Access to the camera is needed for detection</string>
+    <string name="no_camera_permission">This application cannot run because it does not have the camera permission.  The application will now exit.</string>
+    <string name="low_storage_error">Ocr dependencies cannot be downloaded due to low device storage</string>
+    <string name="title_activity_main">Ocr Detector Sample</string>
+    <string name="ocr_header">Click &quot;Detect Text&quot; to detect text</string>
+    <string name="read_text">Detect Text</string>
+    <string name="auto_focus">Auto Focus</string>
+    <string name="use_flash">Use Flash</string>
+    <string name="ocr_success">Text read successfully</string>
+    <string name="ocr_failure">No text captured</string>
+    <string name="ocr_error">"Error reading text: %1$s"</string>
+    <string name="picture">Picture</string>
+    <string name="description_info">Info</string>
+    <string name="request_permission">This sample needs camera permission.</string>
+    <string name="camera_error">This device doesn\'t support Camera2 API.</string>
+
+    <string name="string_save">Save</string>
+    <string name="string_share">Share</string>
+    <string name="string_copy">Copy</string>
+    <string name="string_retake">Retake</string>
+
+    <string name="str_trans">Translate</string>
+
+    <string name="title_activity_camera">CameraActivity</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Strings related to Settings -->
+
+
+    <string name="str_source_text">Source Text</string>
+    <string name="str_target_language">Target Language</string>
+    <string name="str_lang">OCR Languages</string>
+    <string name="str_multicolumn">Multi Column Text</string>
+    <string name="str_no_text_in_image">Text could not be read from given image</string>
+    <string name="tts_init_success">Text to speech engine started successfully.</string>
+    <string name="tts_init_failed">Error starting the text to speech engine.</string>
+    <string name="str_txt_man">Text Manager</string>
+    <string name="recognized_text">Recognized Text</string>
+    <string name="str_done">Done</string>
+    <string name="str_edit">Edit</string>
+    <string name="str_speak">Speak</string>
+    <string name="str_hlp_ocr" >
+    Recognize Text :\n
+    1.Tap &ocr; button on Main Screen\n
+    2.Tap to listen text in the front of camera and Long Press to manage the text
+    </string>
+    <string name="str_hlp_curr" >
+    Recognize Currency :\n
+    1.Tap &curr; button on Main Screen\n
+    2.Tap to listen detected currency
+    </string>
+    <string name="str_hlp_trans" >
+    Translate Text :\n
+    1.Tap &trans; button on Main Screen\n
+    2.Select target language from the target language spinner\n
+    3.Tap on &trans; button on the bottom to start translation
+    </string>
+    <string name="str_hlp_txt_man" >
+    Text Manager:\n
+    Select options in the bottom of the screen to manage text
+    </string>
+</resources>

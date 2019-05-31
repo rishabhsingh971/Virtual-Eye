@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg_color"
+    tools:context="com.example.controller.app.MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_ocr"
+                    style="@style/main_activity_btn_style"
+                    android:text="@string/str_ocr"/>
+
+                <Button
+                    android:id="@+id/btn_curr"
+					style="@style/main_activity_btn_style"
+                    android:text="@string/str_currency" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+
+                <Button
+                    android:id="@+id/btn_translate"
+					style="@style/main_activity_btn_style"
+                    android:text="@string/str_translate"/>
+
+                <Button
+                    android:id="@+id/btn_ocr_setting"
+					style="@style/main_activity_btn_style"
+                    android:text="@string/str_settings" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btn_hlp"
+					style="@style/main_activity_btn_style"
+                    android:text="@string/str_help" />
+
+                <Button
+                    android:id="@+id/imb_face"
+					style="@style/main_activity_btn_style"
+                    android:visibility="invisible" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SettingsActivity">
+
+
+    <Switch
+        android:id="@+id/swc_autofocus"
+        style="@style/settings_activity_swc_style"
+        android:text="@string/auto_focus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Switch
+        android:id="@+id/swc_flash"
+        style="@style/settings_activity_swc_style"
+        android:text="@string/use_flash"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swc_autofocus" />
+    <Switch
+        android:id="@+id/swc_multicolumn"
+        style="@style/settings_activity_swc_style"
+        android:text="@string/str_multicolumn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swc_flash" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/swc_multicolumn"
+        android:layout_margin="8dp"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_weight="1"
+            android:id="@+id/textView6"
+            style="@style/tv_style"
+            android:text="@string/str_lang"/>
+
+        <Spinner
+            android:id="@+id/spr_lang"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="3"
+            android:entries="@array/arr_ocr_lang" />
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

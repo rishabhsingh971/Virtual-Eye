@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?><!--
+ Copyright 2011 Robert Theis
+
+ Licensed under the Apache License, Version 2.0 (the "License");
+ you may not use this file except in compliance with the License.
+ You may obtain a copy of the License at
+
+      http://www.apache.org/licenses/LICENSE-2.0
+
+ Unless required by applicable law or agreed to in writing, software
+ distributed under the License is distributed on an "AS IS" BASIS,
+ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ See the License for the specific language governing permissions and
+ limitations under the License.
+ -->
+<resources>
+    <string-array name="arr_ocr_lang" >
+        <item>English</item>
+        <item>Catalan</item>
+        <item>Danish</item>
+        <item>Dutch</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Hungarian</item>
+        <item>Indonesian</item>
+        <item>Italian</item>
+        <item>Latin</item>
+        <item>Norwegian</item>
+        <item>Polish</item>
+        <item>Portugese</item>
+        <item>Romanian</item>
+        <item>Spanish</item>
+        <item>Swedish</item>
+        <item>Tagalog</item>
+        <item>Turkish</item>
+    </string-array>
+    <string-array name="arr_ocr_lang_code" >
+        <item>en</item> <!-- English -->
+        <item>ca</item> <!-- Catalan -->
+        <item>da</item> <!-- Danish -->
+        <item>nl</item> <!-- Dutch -->
+        <item>fi</item> <!-- Finnish -->
+        <item>fr</item> <!-- French -->
+        <item>de</item> <!-- German -->
+        <item>hu</item> <!-- Hungarian -->
+        <item>id</item> <!-- Indonesian -->
+        <item>it</item> <!-- Italian -->
+        <item>la</item>   <!-- Latin -->
+        <item>no</item> <!-- Norwegian -->
+        <item>pl</item> <!-- Polish -->
+        <item>pt</item> <!-- Portuguese -->
+        <item>ro</item> <!-- Romanian -->
+        <item>es</item> <!-- Spanish -->
+        <item>sv</item> <!-- Swedish -->
+        <item>tl</item> <!-- Tagalog -->
+        <item>tr</item> <!-- Turkish -->
+    </string-array>
+    <string-array name="arr_trans_lang" >
+        <item>Afrikaans</item>
+        <item>Arabic</item>
+        <item>Bangla</item>
+        <item>Bosnian (Latin)</item>
+        <item>Bulgarian</item>
+        <item>Cantonese (Traditional)</item>
+        <item>Catalan</item>
+        <item>Chinese Simplified</item>
+        <item>Chinese Traditional</item>
+        <item>Croatian</item>
+        <item>Czech</item>
+        <item>Danish</item>
+        <item>Dutch</item>
+        <item>English</item>
+        <item>Estonian</item>
+        <item>Fijian</item>
+        <item>Filipino</item>
+        <item>Finnish</item>
+        <item>French</item>
+        <item>German</item>
+        <item>Greek</item>
+        <item>Haitian Creole</item>
+        <item>Hebrew</item>
+        <item>Hindi</item>
+        <item>Hmong Daw</item>
+        <item>Hungarian</item>
+        <item>Icelandic</item>
+        <item>Indonesian</item>
+        <item>Italian</item>
+        <item>Japanese</item>
+        <item>Kiswahili</item>
+        <item>Klingon</item>
+        <item>Klingon (plqaD)</item>
+        <item>Korean</item>
+        <item>Latvian</item>
+        <item>Lithuanian</item>
+        <item>Malagasy</item>
+        <item>Malay</item>
+        <item>Maltese</item>
+        <item>Norwegian</item>
+        <item>Persian</item>
+        <item>Polish</item>
+        <item>Portuguese</item>
+        <item>Queretaro Otomi</item>
+        <item>Romanian</item>
+        <item>Russian</item>
+        <item>Samoan</item>
+        <item>Serbian (Cyrillic)</item>
+        <item>Serbian (Latin)</item>
+        <item>Slovak</item>
+        <item>Slovenian</item>
+        <item>Spanish</item>
+        <item>Swedish</item>
+        <item>Tahitian</item>
+        <item>Tamil</item>
+        <item>Thai</item>
+        <item>Tongan</item>
+        <item>Turkish</item>
+        <item>Ukrainian</item>
+        <item>Urdu</item>
+        <item>Vietnamese</item>
+        <item>Welsh</item>
+        <item>Yucatec Maya</item>
+    </string-array>
+    <string-array name="arr_trans_lang_code" >
+        <item>af</item>
+        <item>ar</item>
+        <item>bn</item>
+        <item>bs</item>
+        <item>bg</item>
+        <item>yue</item>
+        <item>ca</item>
+        <item>zh-Hans</item>
+        <item>zh-Hant</item>
+        <item>hr</item>
+        <item>cs</item>
+        <item>da</item>
+        <item>nl</item>
+        <item>en</item>
+        <item>et</item>
+        <item>fj</item>
+        <item>fil</item>
+        <item>fi</item>
+        <item>fr</item>
+        <item>de</item>
+        <item>el</item>
+        <item>ht</item>
+        <item>he</item>
+        <item>hi</item>
+        <item>mww</item>
+        <item>hu</item>
+        <item>is</item>
+        <item>id</item>
+        <item>it</item>
+        <item>ja</item>
+        <item>sw</item>
+        <item>tlh</item>
+        <item>tlh-Qaak</item>
+        <item>ko</item>
+        <item>lv</item>
+        <item>lt</item>
+        <item>mg</item>
+        <item>ms</item>
+        <item>mt</item>
+        <item>nb</item>
+        <item>fa</item>
+        <item>pl</item>
+        <item>pt</item>
+        <item>otq</item>
+        <item>ro</item>
+        <item>ru</item>
+        <item>sm</item>
+        <item>sr-Cyrl</item>
+        <item>sr-Latn</item>
+        <item>sk</item>
+        <item>sl</item>
+        <item>es</item>
+        <item>sv</item>
+        <item>ty</item>
+        <item>ta</item>
+        <item>th</item>
+        <item>to</item>
+        <item>tr</item>
+        <item>uk</item>
+        <item>ur</item>
+        <item>vi</item>
+        <item>cy</item>
+        <item>yua</item>
+    </string-array>
+</resources>
